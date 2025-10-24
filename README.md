@@ -9,14 +9,20 @@
 ・WebCTC：CodeChickinCore Unofficialに未対応のため、AngelicaやFalsePatternLibと併用不可。また、ArchaicFixと相性が悪いらしい。  
 WebCTCを使いたい場合はこちらを参考に。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%88%90%E3%83%BC  
+
 ・純正RealTrainMod（？）：倉急ワールドにて看板の描画時にぬるぽでクラッシュするバグが確認されたが原因不明。  
+
 ・KaizPatch：Beddium版でfalsetweaks.cfgのthreadedChunkUpdatesを有効にしていると、純正⇒KaizPatchに移行したワールドの架線柱モデルがバグる。先述の設定を無効化するか、移行後に架線柱モデルを全て置き直す。  
+
 ・純正＆KaizPatch：一部のレールが黒くなるバグの対策でLumiを入れているが、Lumiを入れているとトンネル内の一部レールが1.12.2のように明るくなる。  
+
 ・Liteloader：Angelica等と競合するのでLiteloaderLoaderを導入。https://modrinth.com/mod/liteloaderloader  
 ## 注意事項
 ・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modを全て削除してください。  
+
 ・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  
+
 ・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  
@@ -28,3 +34,19 @@ https://modrinth.com/mod/filedirector/versions?g=1.7.10
 ・FileDirectorはもう要らないので削除。  
 ・Minecraftを再起動。  
 ・導入完了。  
+## ライセンス
+LGPL3。ライセンスの全文はmodpackのZip内のreadme.txtにあります。
+## クレジット（Configファイル）
+Angelica by GT:NewHorizons  
+https://github.com/GTNewHorizons/Angelica?tab=License-1-ov-file#readme  
+ArchaicFix by Embeddedt  
+https://github.com/embeddedt/ArchaicFix?tab=License-1-ov-file#  
+https://github.com/embeddedt/ArchaicFix?tab=LGPL-3.0-2-ov-file#  
+CoreTweaks by makamys  
+https://github.com/GTNewHorizons/CoreTweaks?tab=License-1-ov-file#  
+FalseTweaks by FalseParttern  
+https://github.com/FalsePattern/FalseTweaks?tab=License-1-ov-file#  
+https://github.com/FalsePattern/FalseTweaks?tab=GPL-3.0-2-ov-file#  
+https://github.com/FalsePattern/FalseTweaks?tab=LGPL-3.0-3-ov-file  
+HodgePodge by GT:NewHorizons  
+https://github.com/GTNewHorizons/Hodgepodge?tab=LGPL-3.0-1-ov-file#  

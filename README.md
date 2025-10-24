@@ -14,5 +14,5 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 ・FileDirectorをダウンロードし、modsに入れる。  
 https://modrinth.com/mod/filedirector/versions?g=1.7.10  
 ・起動するとmodのダウンロード画面が出てくるので、「NEXT」を押してダウンロード。  
-・起動したら一旦Minecraftを終了して再起動。  
+・タイトル画面まで行くか、警告画面が出たら、一旦Minecraftを終了して再起動。  
 ・導入完了。  

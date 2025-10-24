@@ -18,7 +18,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・Liteloader：Angelica等と競合するのでLiteloaderLoaderを導入。https://modrinth.com/mod/liteloaderloader  
 ## 注意事項
-・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modを全て削除してください。  
+・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提modを全て削除してください。  
 
 ・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  

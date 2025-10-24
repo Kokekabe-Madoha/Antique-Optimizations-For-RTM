@@ -1,0 +1,8 @@
+{
+    "packName": "Antique Optimizations",
+    "icon": {
+        "path": "config/mod-director/icon.png",
+        "width": 64,
+        "height": 64
+   }
+}

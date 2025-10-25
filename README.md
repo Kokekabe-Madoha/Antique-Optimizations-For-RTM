@@ -39,9 +39,9 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 
 ・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進みます。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。
 ## Angelica版とBeddium版、どちらが良いか
-・チャンクロード速度：Beddium（マルチスレッド）≧ Angelica > Beddium（シングルスレッド）> OptiFine
-・影の互換性：OptiFine > SwanSong > Angelica
-・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica
+・チャンクロード速度：Beddium（マルチスレッド）≧ Angelica > Beddium（シングルスレッド）> OptiFine  
+・影の互換性：OptiFine > SwanSong > Angelica  
+・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica  
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  
 ・「Config」フォルダを既存のConfigフォルダに上書きする。  

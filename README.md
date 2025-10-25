@@ -6,6 +6,14 @@
 ・Forge 10.13.4.1614  
 ・KaizPatch v1.9.3  
 ## 非互換性
+・CodeChickinCore（Lib）とProjectRedの前提mod：GTNH版に変える。  
+https://modrinth.com/mod/codechickencore-unofficial/versions  
+https://modrinth.com/mod/codechickenlib-unofficial/versions  
+https://github.com/GTNewHorizons/ForgeMultipart/releases  
+https://github.com/GTNewHorizons/ForgeRelocationFMP/releases  
+https://github.com/GTNewHorizons/ForgeRelocation/releases  
+https://github.com/GTNewHorizons/MrTJPCore/releases  
+
 ・WebCTC：CodeChickinCore Unofficialに未対応のため、AngelicaやFalsePatternLibと併用不可。また、ArchaicFixと相性が悪いらしい。  
 WebCTCを使いたい場合はこちらを参考に。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%88%90%E3%83%BC  
@@ -18,7 +26,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・Liteloader：Angelica等と競合するのでLiteloaderLoaderを導入。https://modrinth.com/mod/liteloaderloader  
 ## 注意事項
-・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提modを全て削除してください。  
+・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提mod、NotEnoughIDs等を全て削除してください。  
 
 ・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  

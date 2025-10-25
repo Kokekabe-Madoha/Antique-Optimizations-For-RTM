@@ -28,15 +28,19 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。
 ## 注意事項
-・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提mod、NotEnoughIDs等を全て削除してください。  
+・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提mod、ID拡張modを全て削除してください。  
 
 ・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  
 
-・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。
+・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。  
+
+・「Realms」「LANに公開」「配信設定」「Super Secret Settings」のボタンが削除されます。また、自分にかかっているポーションのパーティクルが見えないようになります。
+
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  
 ・「Config」フォルダを既存のConfigフォルダに上書きする。  
+・既存の軽量化modやID拡張modを削除。
 ・FileDirectorをダウンロードし、modsに入れる。  
 https://modrinth.com/mod/filedirector/versions?g=1.7.10  
 ・起動するとmodのダウンロード画面が出てくるので、「NEXT」を押してダウンロード。  

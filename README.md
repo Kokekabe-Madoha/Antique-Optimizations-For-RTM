@@ -22,7 +22,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・KaizPatch：Beddium版でfalsetweaks.cfgのthreadedChunkUpdatesを有効にしていると、純正⇒KaizPatchに移行したワールドの架線柱モデルがバグる。先述の設定を無効化するか、移行後に架線柱モデルを全て置き直す。  
 
-・純正＆KaizPatch：一部のレールが黒くなるバグの対策でLumiを入れているが、Lumiを入れているとトンネル内の一部レールが1.12.2のように明るくなる。  
+・純正＆KaizPatch：一部のレールが黒くなるバグの対策でLumiを入れているが、Beddium版でLumiを入れているとトンネル内の一部レールが1.12.2のように明るくなる。  
 
 ・Liteloader：Angelica等と競合するのでLiteloaderLoaderを導入。https://modrinth.com/mod/liteloaderloader  
 

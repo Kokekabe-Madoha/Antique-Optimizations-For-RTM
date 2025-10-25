@@ -36,7 +36,10 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 ・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。  
 
 ・「Realms」「LANに公開」「配信設定」「Super Secret Settings」のボタンが削除されます。また、自分にかかっているポーションのパーティクルが見えないようになります。
-
+## Angelica版とBeddium版、どちらが良いか
+・チャンクロード速度：Beddium（マルチスレッド）≧ Angelica > Beddium（シングルスレッド）> OptiFine
+・影の互換性：OptiFine > SwanSong > Angelica
+・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  
 ・「Config」フォルダを既存のConfigフォルダに上書きする。  
@@ -44,41 +47,12 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 ・FileDirectorをダウンロードし、modsに入れる。  
 https://modrinth.com/mod/filedirector/versions?g=1.7.10  
 ・起動するとmodのダウンロード画面が出てくるので、「NEXT」を押してダウンロード。  
-・タイトル画面まで行くか、警告画面が出たら、一旦Minecraftを終了。  
+・警告画面が出たら✕ボタンでMinecraftを終了。クラッシュしたらそのまま次へ。  
 ・FileDirectorはもう要らないので削除。  
 ・Minecraftを再起動。  
 ・導入完了。  
 ## Modリスト
-### Angelica版
-- Angelica
-- ArchaicFix
-- BugTorch
-- ChunkAPI
-- CoreTweaks
-- EndlessIDs
-- FalsePatternLib
-- FoamFix
-- GTNH Lib
-- Hodgepodge
-- Lumi
-- UniMixins
-### Beddium版
-- ArchaicFix
-- Beddium
-- BugTorch
-- ChunkAPI
-- CoreTweaks
-- EndlessIDs
-- FalsePatternLib
-- FalseTweaks
-- FoamFix
-- GTNH Lib
-- Hodgepodge
-- Lumi
-- NotFine
-- Right Proper MCPatcher
-- SwanSong
-- UniMixins
+https://madoha-4862.hatenablog.jp/entry/2025/10/25/120306
 ## ライセンス
 LGPL3。ライセンスの全文はmodpackのZip内のreadme.txtにあります。
 ## クレジット（Configファイル）

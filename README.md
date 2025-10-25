@@ -28,8 +28,6 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。
 ## 注意事項
-・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提mod、ID拡張modを全て削除してください。  
-
 ・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  
 

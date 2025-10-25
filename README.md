@@ -35,7 +35,9 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 
 ・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。  
 
-・「Realms」「LANに公開」「配信設定」「Super Secret Settings」のボタンが削除されます。また、自分にかかっているポーションのパーティクルが見えないようになります。
+・「Realms」「LANに公開」「配信設定」「Super Secret Settings」のボタンが削除されます。また、自分にかかっているポーションのパーティクルが見えないようになります。  
+
+・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進みます。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。
 ## Angelica版とBeddium版、どちらが良いか
 ・チャンクロード速度：Beddium（マルチスレッド）≧ Angelica > Beddium（シングルスレッド）> OptiFine
 ・影の互換性：OptiFine > SwanSong > Angelica

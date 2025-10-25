@@ -42,6 +42,37 @@ https://modrinth.com/mod/filedirector/versions?g=1.7.10
 ・FileDirectorはもう要らないので削除。  
 ・Minecraftを再起動。  
 ・導入完了。  
+## Modリスト
+### Angelica版
+- Angelica
+- ArchaicFix
+- BugTorch
+- ChunkAPI
+- CoreTweaks
+- EndlessIDs
+- FalsePatternLib
+- FoamFix
+- GTNH Lib
+- Hodgepodge
+- Lumi
+- UniMixins
+### Beddium版
+- ArchaicFix
+- Beddium
+- BugTorch
+- ChunkAPI
+- CoreTweaks
+- EndlessIDs
+- FalsePatternLib
+- FalseTweaks
+- FoamFix
+- GTNH Lib
+- Hodgepodge
+- Lumi
+- NotFine
+- Right Proper MCPatcher
+- SwanSong
+- UniMixins
 ## ライセンス
 LGPL3。ライセンスの全文はmodpackのZip内のreadme.txtにあります。
 ## クレジット（Configファイル）

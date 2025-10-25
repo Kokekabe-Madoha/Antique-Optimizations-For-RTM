@@ -25,6 +25,8 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 ・純正＆KaizPatch：一部のレールが黒くなるバグの対策でLumiを入れているが、Lumiを入れているとトンネル内の一部レールが1.12.2のように明るくなる。  
 
 ・Liteloader：Angelica等と競合するのでLiteloaderLoaderを導入。https://modrinth.com/mod/liteloaderloader  
+
+・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。
 ## 注意事項
 ・jarファイルは自動で置き換えられないので、導入前に既存の軽量化modやそれらの前提mod、NotEnoughIDs等を全て削除してください。  
 

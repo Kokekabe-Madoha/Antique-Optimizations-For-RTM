@@ -18,13 +18,13 @@ https://github.com/GTNewHorizons/MrTJPCore/releases
 WebCTCを使いたい場合はこちらを参考に。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%88%90%E3%83%BC  
 
-・純正RealTrainMod（？）：倉急ワールドにて看板の描画時にぬるぽでクラッシュするバグが確認されたが原因不明。  
+・純正RealTrainMod：Beddium版で、看板の描画時にぬるぽでクラッシュするバグがあるが、原因不明。  
 
 ・KaizPatch：Beddium版でfalsetweaks.cfgのthreadedChunkUpdatesを有効にしていると、純正⇒KaizPatchに移行したワールドの架線柱モデルがバグる。先述の設定を無効化するか、移行後に架線柱モデルを全て置き直す。  
 
 ・純正＆KaizPatch：一部のレールが黒くなるバグの対策でLumiを入れているが、Beddium版でLumiを入れているとトンネル内の一部レールが1.12.2のように明るくなる。  
 
-・Liteloader：Angelica等と競合するのでLiteloaderLoaderを導入。https://modrinth.com/mod/liteloaderloader  
+・Liteloader：LiteloaderLoaderを入れる。https://modrinth.com/mod/liteloaderloader  
 
 ・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。
 ## 注意事項

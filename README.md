@@ -18,7 +18,7 @@ https://github.com/GTNewHorizons/MrTJPCore/releases
 WebCTCを使いたい場合はこちらを参考に。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%88%90%E3%83%BC  
 
-・純正RealTrainMod：Beddium版で、看板の描画時にぬるぽでクラッシュするバグがあるが、原因不明。  
+・純正RealTrainMod：Beddiumとの競合で、看板の描画時にぬるぽでクラッシュすることがある。  
 
 ・KaizPatch：Beddium版でfalsetweaks.cfgのthreadedChunkUpdatesを有効にしていると、純正⇒KaizPatchに移行したワールドの架線柱モデルがバグる。先述の設定を無効化するか、移行後に架線柱モデルを全て置き直す。  
 

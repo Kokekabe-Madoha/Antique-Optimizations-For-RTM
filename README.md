@@ -2,7 +2,7 @@
 ・RealTrainMod 1.7.10（KaizPatch）と公式ランチャーに対応する軽量化modpack。  
 ・多数のModとConfig変更を簡単に導入することが出来ます。
 ## 推奨環境
-・Java 8.0.462+8（Eclipse Temurin）https://adoptium.net/temurin/releases?version=8&mode=filter&os=any&arch=any  
+・Java 8.0.472+8（Eclipse Temurin）https://adoptium.net/temurin/releases?version=8&mode=filter&os=any&arch=any  
 ・Forge 10.13.4.1614  
 ・KaizPatch v1.9.3  
 ## 非互換性

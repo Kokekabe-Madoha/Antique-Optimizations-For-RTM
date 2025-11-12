@@ -37,7 +37,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 
 ・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進みます。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。
 ## Angelica版とBeddium版、どちらが良いか
-・平均FPS：Angelica > Beddium > OptiFine  
+・平均FPS：Angelica > OptiFine ≧ Beddium  
 ・チャンクロード速度：Beddium（マルチスレッド）> Angelica > Beddium（シングルスレッド）> OptiFine  
 ・影とRTMの互換性：OptiFine > Angelica ≧ SwanSong  
 ・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica  

@@ -39,7 +39,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 ## Angelica版とBeddium版、どちらが良いか
 ・平均FPS：Angelica > Beddium > OptiFine
 ・チャンクロード速度：Beddium（マルチスレッド）> Angelica > Beddium（シングルスレッド）> OptiFine  
-・影の互換性：OptiFine > SwanSong > Angelica  
+・影とRTMの互換性：OptiFine > Angelica ≧ SwanSong
 ・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica  
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  

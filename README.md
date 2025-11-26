@@ -4,7 +4,7 @@
 ## 推奨環境
 ・Java 8.0.472+8（Eclipse Temurin）https://adoptium.net/temurin/releases?version=8&mode=filter&os=any&arch=any  
 ・Forge 10.13.4.1614  
-・KaizPatch v1.9.3  
+・RealTrainMod v1.7.10.46、KaizPatchX v1.9.3  
 ## 非互換性
 ・CodeChickinCore（Lib）とProjectRedの前提mod：GTNH版に変える。  
 https://modrinth.com/mod/codechickencore-unofficial/versions  
@@ -26,20 +26,20 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・Liteloader：LiteloaderLoaderを入れる。https://modrinth.com/mod/liteloaderloader  
 
-・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。
+・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。  
+
+・LWJGL3ify：このmodpackはBeddiumのJava8版を使用するが、LWJGL3ifyを導入する場合はJava21版に変更する。  
 ## 注意事項
 ・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  
 
 ・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。  
 
-・「Realms」ボタンが削除されます。また、自分にかかっているポーションのパーティクルが見えないようになります。  
-
-・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進みます。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。
+・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進んで下さい。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。  
 ## Angelica版とBeddium版、どちらが良いか
-・平均FPS：Angelica > OptiFine ≧ Beddium  
+・平均FPS：Angelica > Beddium ≧ OptiFine  
 ・チャンクロード速度：Beddium（マルチスレッド）> Angelica > Beddium（シングルスレッド）> OptiFine  
-・影とRTMの互換性：OptiFine > Angelica ≧ SwanSong  
+・影とRTMの互換性：OptiFine > SwanSong ≧ Angelica    
 ・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica  
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  
@@ -52,6 +52,8 @@ https://modrinth.com/mod/filedirector/versions?g=1.7.10
 ・FileDirectorはもう要らないので削除。一旦抜いたmodも入れる。  
 ・Minecraftを再起動。  
 ・導入完了。  
+
+・Modを自分で導入して、Configだけ使用するのも良い。
 ## Modリスト
 https://madoha-4862.hatenablog.jp/entry/2025/10/25/120306
 ## ライセンス

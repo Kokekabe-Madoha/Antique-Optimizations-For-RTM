@@ -1,7 +1,7 @@
 # Antique Optimizations For RTM
 ・KaizPatchXと公式ランチャーに対応する軽量化modpack。  
 ・多数のModとConfig変更を簡単に導入することが出来ます。
-## 旧Angelica版について
+## Angelica版について
 Angelica版は構成の変更により、modpack化する必要が無くなったので廃止しました。  
 以下の記事を参考に導入してください。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#1710-Angelica  

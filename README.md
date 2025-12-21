@@ -1,6 +1,10 @@
 # Antique Optimizations For RTM
-・RealTrainMod 1.7.10（KaizPatch）と公式ランチャーに対応する軽量化modpack。  
+・KaizPatchXと公式ランチャーに対応する軽量化modpack。  
 ・多数のModとConfig変更を簡単に導入することが出来ます。
+## 旧Angelica版について
+Angelica版は構成の変更により、modpack化する必要が無くなったので廃止しました。  
+以下の記事を参考に導入してください。  
+https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#1710-Angelica  
 ## 推奨環境
 ・Java 8.0.472+8（Eclipse Temurin）https://adoptium.net/temurin/releases?version=8&mode=filter&os=any&arch=any  
 ・Forge 10.13.4.1614  
@@ -14,9 +18,7 @@ https://github.com/GTNewHorizons/ForgeRelocationFMP/releases
 https://github.com/GTNewHorizons/ForgeRelocation/releases  
 https://github.com/GTNewHorizons/MrTJPCore/releases  
 
-・WebCTC：CodeChickinCore Unofficialに未対応のため、AngelicaやFalsePatternLibと併用不可。また、ArchaicFixと相性が悪いらしい。  
-WebCTCを使いたい場合はこちらを参考に。  
-https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%88%90%E3%83%BC  
+・WebCTC：CodeChickinCore Unofficialに未対応のため、FalsePatternLibと併用不可。また、ArchaicFixと相性が悪いらしい。  
 
 ・純正RealTrainMod：Beddiumとの競合で、看板の描画時にぬるぽでクラッシュすることがある。  
 
@@ -30,13 +32,13 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#%E3%83%BC%E6%A7%8B%E6%
 
 ・LWJGL3ify：このmodpackはBeddiumのJava8版を使用するが、LWJGL3ifyを導入する場合はJava21版に変更する。  
 ## 注意事項
-・軽量化の記事にあるBeddium構成とAngelica構成を元に、いくつかmodが追加されています。  
+・軽量化の記事にあるBeddium構成を元に、いくつかmodが追加されています。  
 https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  
 
 ・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。  
 
 ・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進んで下さい。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。  
-## Angelica版とBeddium版、どちらが良いか
+## AngelicaとBeddium版、どちらが良いか
 ・平均FPS：Angelica > Beddium ≧ OptiFine  
 ・チャンクロード速度：Beddium（マルチスレッド）> Angelica > Beddium（シングルスレッド）> OptiFine  
 ・影とRTMの互換性：OptiFine > SwanSong ≧ Angelica    
@@ -59,8 +61,6 @@ https://madoha-4862.hatenablog.jp/entry/2025/10/25/120306
 ## ライセンス
 LGPL3。ライセンスの全文はmodpackのZip内のreadme.txtにあります。
 ## クレジット（Configファイル）
-Angelica by GT:NewHorizons  
-https://github.com/GTNewHorizons/Angelica?tab=License-1-ov-file#readme  
 ArchaicFix by Embeddedt  
 https://github.com/embeddedt/ArchaicFix?tab=License-1-ov-file#  
 https://github.com/embeddedt/ArchaicFix?tab=LGPL-3.0-2-ov-file#  

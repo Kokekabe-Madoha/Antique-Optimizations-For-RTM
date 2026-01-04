@@ -29,7 +29,8 @@ https://modrinth.com/mod/endlessids/versions
 
 ・純正＆KaizPatch：一部のレールが黒くなるバグの対策でLumiを入れているが、Beddium版でLumiを入れているとトンネル内の一部レールが1.12.2のように明るくなる。  
 
-・Liteloader：LiteloaderLoaderを入れる。https://modrinth.com/mod/liteloaderloader  
+・Liteloader：LiteloaderLoaderを入れる。  
+https://modrinth.com/mod/liteloaderloader  
 
 ・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。  
 

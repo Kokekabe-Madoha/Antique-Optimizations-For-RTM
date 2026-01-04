@@ -77,8 +77,6 @@ FalseTweaks by FalseParttern
 https://github.com/FalsePattern/FalseTweaks?tab=License-1-ov-file#  
 https://github.com/FalsePattern/FalseTweaks?tab=GPL-3.0-2-ov-file#  
 https://github.com/FalsePattern/FalseTweaks?tab=LGPL-3.0-3-ov-file  
-HodgePodge by GT:NewHorizons  
-https://github.com/GTNewHorizons/Hodgepodge?tab=LGPL-3.0-1-ov-file#  
 Lwjgl3ify by GT:NewHorizons  
 https://github.com/GTNewHorizons/lwjgl3ify?tab=LGPL-3.0-1-ov-file#readme  
 SwanSong by vfx-dev  

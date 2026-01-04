@@ -44,7 +44,7 @@ https://modrinth.com/mod/endlessids/versions
 
 ・トンネル内のレールの一部が1.12.2のように明るくなることがあります。  
 ## AngelicaとBeddium版、どちらが良いか
-・平均FPS：Angelica > Beddium ≧ OptiFine  
+・平均FPS：Angelica > Beddium > OptiFine  
 ・チャンクロード速度：Beddium（マルチスレッド）> Angelica > Beddium（シングルスレッド）> OptiFine  
 ・影とRTMの互換性：OptiFine > SwanSong ≧ Angelica    
 ・リソースパックの互換性：OptiFine > RightProperMCPatcher > Angelica  

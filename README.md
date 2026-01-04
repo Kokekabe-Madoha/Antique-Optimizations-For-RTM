@@ -18,6 +18,9 @@ https://github.com/GTNewHorizons/ForgeRelocationFMP/releases
 https://github.com/GTNewHorizons/ForgeRelocation/releases  
 https://github.com/GTNewHorizons/MrTJPCore/releases  
 
+・NotEnoughIDs（Unofficialも含む）：EndlessIDsを使う。  
+https://modrinth.com/mod/endlessids/versions  
+
 ・WebCTC：CodeChickinCore Unofficialに未対応のため、FalsePatternLibと併用不可。また、ArchaicFixと相性が悪いらしい。  
 
 ・純正RealTrainMod：Beddiumとの競合で、看板の描画時にぬるぽでクラッシュすることがある。  
@@ -31,13 +34,15 @@ https://github.com/GTNewHorizons/MrTJPCore/releases
 ・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。  
 
 ・LWJGL3ify：このmodpackはBeddiumのJava8版を使用するが、LWJGL3ifyを導入する場合はJava21版に変更する。  
-## 注意事項
-・軽量化の記事にあるBeddium構成を元に、いくつかmodが追加されています。  
-https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348  
 
+・Neodymium Unofficial：既にサポート終了済み。入れると警告が出る。
+
+## 注意事項
 ・falsetweaks.cfgのthreads（チャンクロードに使うCPUのスレッド数）をデフォルトで最大の8スレッドにしています。使っているCPUのコア数（スレッド数）が少ない場合は値を小さくしてください。  
 
 ・ワールド参加時にEndlessIDsとLumiがワールドを変更する警告が出るので、「はい」で進んで下さい。後でEndlessIDsやLumiを抜いてもワールドは壊れないので大丈夫です。  
+
+・トンネル内のレールの一部が1.12.2のように明るくなることがあります。  
 ## AngelicaとBeddium版、どちらが良いか
 ・平均FPS：Angelica > Beddium ≧ OptiFine  
 ・チャンクロード速度：Beddium（マルチスレッド）> Angelica > Beddium（シングルスレッド）> OptiFine  
@@ -46,7 +51,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348
 ## 導入方法
 ・ReleaseからZipをダウンロードして、解凍する。  
 ・「Config」フォルダを既存のConfigフォルダに上書きする。  
-・既存の軽量化modやID拡張modを削除。UniMixinsを要求するmodは一旦抜く。  
+・既存の軽量化modを削除。軽量化mod以外でUniMixinsを要求するmodは一旦抜く。  
 ・FileDirectorをダウンロードし、modsに入れる。  
 https://modrinth.com/mod/filedirector/versions?g=1.7.10  
 ・起動するとmodのダウンロード画面が出てくるので、「NEXT」を押してダウンロード。  

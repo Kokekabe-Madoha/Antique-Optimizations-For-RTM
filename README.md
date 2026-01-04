@@ -8,7 +8,7 @@ https://madoha-4862.hatenablog.jp/entry/2024/09/11/231348#1710-Angelica
 ## 推奨環境
 ・Java 8.0.472+8（Eclipse Temurin）https://adoptium.net/temurin/releases?version=8&mode=filter&os=any&arch=any  
 ・Forge 10.13.4.1614  
-・RealTrainMod v1.7.10.46、KaizPatchX v1.9.3  
+・KaizPatchX v1.9.3  
 ## 非互換性
 ・CodeChickinCore（Lib）とProjectRedの前提mod：GTNH版に変える。  
 https://modrinth.com/mod/codechickencore-unofficial/versions  

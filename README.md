@@ -34,6 +34,7 @@ https://modrinth.com/mod/endlessids/versions
 ・OptiFine：OptiFineを使わない想定で制作しているので、無理矢理入れると不具合の原因になる。  
 
 ・LWJGL3ify：このmodpackはBeddiumのJava8版を使用するが、LWJGL3ifyを導入する場合はJava21版に変更する。  
+https://modrinth.com/mod/beddium/versions  
 
 ・Neodymium Unofficial：既にサポート終了済み。入れると警告が出る。
 
